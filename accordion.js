@@ -1,0 +1,18 @@
+$(document).ready(function()
+{
+  $("#friends").slideUp();
+  $("#gallery").slideUp();
+  $("#videos").slideUp();
+    $("#accordion1").click(function()
+    {
+        $("#videos").slideToggle();
+    });
+    $("#accordion2").click(function()
+    {
+      $("#gallery").slideToggle();
+    });
+    $("#accordion3").click(function()
+    {
+      $("#friends").slideToggle();
+    });
+});

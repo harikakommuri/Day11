@@ -1,0 +1,49 @@
+body
+{
+  background:linear-gradient(to right,black,white);
+}
+#gallery , #videos , #friends
+{
+  background : white;
+  color : red;
+  height : inherit;
+}
+#accordion
+{
+  color : white;
+  margin-top : 200px;
+  margin-left : auto;
+  margin-right : auto;
+  width : 400px;
+  height: auto;
+}
+.accordion-section
+{
+  background : red;
+  height: 50px;
+}
+.arrow
+{
+  float : right;
+}
+i
+{
+  padding-left: 5px;
+  padding-right: 10px;
+}
+.display
+{
+  background : #dcdcdc;
+  height : inherit;
+  position : relative;
+  left : 250px;
+  width : 10%;
+}
+.count
+{
+  background : darkred;
+  height : inherit;
+  position : relative;
+  right : -290px;
+  width : 10%;
+}
